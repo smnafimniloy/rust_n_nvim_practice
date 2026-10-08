@@ -5,7 +5,7 @@ use rand::Rng;
 
 fn main() {
     println!("Guess the number!");
-    
+    //let lucky_number = 7; //I am feeling lucky today
     let secrect_number = rand::thread_rng().gen_range(1..=100);
     
     // println!("The secrect number is: {secrect_number}");
